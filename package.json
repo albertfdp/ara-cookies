@@ -1,0 +1,10 @@
+{
+  "name": "ara-cookies",
+  "version": "1.0.0",
+  "description": "Esborra les :cookie: de l'Ara",
+  "main": "manager.js",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^1.8.2"
+  }
+}

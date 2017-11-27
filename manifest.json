@@ -1,0 +1,25 @@
+{
+  "name": "ara-cookies",
+  "manifest_version": 2,
+  "version": "0.1.0",
+  "description": "Esborra les galetes de l'Ara",
+  "permissions": [
+    "activeTab",
+    "cookies",
+    "http://ara.cat/*",
+    "https://ara.cat/*",
+    "http://www.ara.cat/*",
+    "https://www.ara.cat/*"
+  ],
+  "icons": {
+    "16": "cookie.png",
+    "48": "cookie.png",
+    "128": "cookie.png"
+  },
+  "browser_action": {
+    "default_icon": "cookie.png"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
